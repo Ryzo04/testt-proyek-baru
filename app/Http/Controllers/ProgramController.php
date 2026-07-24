@@ -4,18 +4,20 @@ namespace App\Http\Controllers;
 
 class ProgramController extends Controller
 {
+
     public function karir()
     {
-        return "Halaman Karir";
+        return view('program');
     }
 
     public function magang()
     {
-        return "Halaman Magang";
+        return view('program');
     }
 
     public function kunjungan()
     {
-        return "Halaman Kunjungan Industri";
+        return view('program');
     }
+
 }

@@ -8,7 +8,7 @@ class PageController extends Controller
 {
      public function index()
     {
-        return "Hi! Selamat Datang di Website Laravel";
+        return view('home');
     }
 
     public function about()

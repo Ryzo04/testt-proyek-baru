@@ -4,13 +4,15 @@ namespace App\Http\Controllers;
 
 class NewsController extends Controller
 {
+
     public function index()
     {
-        return "Daftar Semua Berita";
+        return view('news');
     }
 
     public function detail($slug)
     {
-        return "Detail Berita : " . $slug;
+        return view('news', compact('slug'));
     }
+
 }

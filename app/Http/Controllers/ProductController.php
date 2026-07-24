@@ -4,23 +4,25 @@ namespace App\Http\Controllers;
 
 class ProductController extends Controller
 {
+
     public function marbelEduGames()
     {
-        return "Halaman Marbel Edu Games";
+        return view('products');
     }
 
     public function marbelFriends()
     {
-        return "Halaman Marbel and Friends Kids Games";
+        return view('products');
     }
 
     public function ririStoryBooks()
     {
-        return "Halaman Riri Story Books";
+        return view('products');
     }
 
     public function kolakKidsSongs()
     {
-        return "Halaman Kolak Kids Songs";
+        return view('products');
     }
+
 }
